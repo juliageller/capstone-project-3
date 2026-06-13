@@ -65,9 +65,8 @@ I don't have a strong GPU on my own machine, so I run this on **Google Colab** f
 1. Go to https://colab.research.google.com and sign in with a Google account.
 2. `File > Upload notebook` and choose `dialogue_summarization.ipynb`.
 3. `Runtime > Change runtime type`, pick **T4 GPU**, and Save.
-4. `Runtime > Run all`. Training takes about a couple of hours, so just leave it.
+4. `Runtime > Run all`. I thought training would take a couple of hours but it only took around 15 minutes. 
 
-Kaggle Notebooks also works (enable the GPU in the settings panel). The notebook will still run on a laptop (Apple Silicon or CPU) thanks to a device fallback, but training is very slow there, so I'd only use a laptop for inference.
 
 The first code cell installs the few libraries that Colab doesn't already include. If you'd rather install locally, see `requirements.txt`.
 
