@@ -1,0 +1,10 @@
+transformers
+datasets
+evaluate
+rouge_score
+bert_score
+sentencepiece
+torch
+matplotlib
+pandas
+numpy
